@@ -1,6 +1,8 @@
-android/* linguist-documentation=true
-ios/* linguist-documentation=true
-web/* linguist-documentation=true
-windows/* linguist-documentation=true
-mac/* linguist-documentation=true
-linux/* linguist-documentation=true
+# اعتبر المشروع كله لغة دارت
+* linguist-language=Dart
+
+# خريطة الملفات التانية اعتبرها ملفات عادية مش برمجية
+*.java linguist-documentation=true
+*.html linguist-documentation=true
+*.swift linguist-documentation=true
+*.js linguist-documentation=true
